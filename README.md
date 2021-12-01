@@ -247,7 +247,7 @@ notebooks_access_control = [
 ### Option 1:
 
 ```
-terrafrom init
+terraform init
 terraform plan -var='teamid=tryme' -var='prjid=project'
 terraform apply -var='teamid=tryme' -var='prjid=project'
 terraform destroy -var='teamid=tryme' -var='prjid=project'
